@@ -1,0 +1,17 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /requests                 --> github.com/ekanshthakur15/hotel-service/internal/controllers.CreateRequest (3 handlers)
+[GIN-debug] GET    /requests                 --> github.com/ekanshthakur15/hotel-service/internal/controllers.GetAllRequests (3 handlers)
+[GIN-debug] GET    /requests/:id             --> github.com/ekanshthakur15/hotel-service/internal/controllers.GetRequestByID (3 handlers)
+[GIN-debug] PUT    /requests/:id             --> github.com/ekanshthakur15/hotel-service/internal/controllers.UpdateRequest (3 handlers)
+[GIN-debug] DELETE /requests/:id             --> github.com/ekanshthakur15/hotel-service/internal/controllers.DeleteRequest (3 handlers)
+[GIN-debug] POST   /requests/:id/complete    --> github.com/ekanshthakur15/hotel-service/internal/controllers.CompleteRequest (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+signal: killed
